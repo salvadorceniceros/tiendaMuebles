@@ -1,0 +1,145 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 2em;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* 1REM = 10px */
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 20px 0;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navPrincipal a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.navPrincipal a:hover {
+    color: #037bc0;
+    /* border-bottom: 2px solid #037bc0; */
+    font-weight: bold;
+    background-color: #fff;
+}
+
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nombreSitio {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.nombreSitio span {
+    color: #037bc0;
+}
+
+.contenedorNavegacion {
+    border-top: 1px solid #e1e1e1;
+    background-color: #037bc0;
+}
+
+.navPrincipal {
+    /* background-color: #037bc0; */
+    /* padding: 20px 0; */
+    display: flex;
+
+    justify-content: center;
+}
+
+.hero {
+    background-image: url(../img/principal.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 50px;
+}
+
+.listadoCategorias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.categoria a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-style: 20px;
+    color: #037bc0;
+}
+
+.categoria a:hover {
+    background-color: #037bc0;
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.categoria img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Sobre Nosotros */
+
+.sobreNosotros {
+    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
+    background-position: left center;
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 70rem;
+    margin-top: 5rem;
+}
+
+.sobreNosotrosGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.textoNosotros {
+    grid-column: 2 / 3;
+    padding: 5rem;
+    color: white;
+}
