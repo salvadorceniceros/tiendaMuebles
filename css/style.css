@@ -102,7 +102,7 @@ h3 {
 }
 
 .hero {
-    background-image: url(/img/principal.jpg);
+    background-image: url(img/principal.jpg);
 <<<<<<< HEAD
     height: 550px;
 =======
@@ -149,7 +149,7 @@ img {
 /* Sobre Nosotros */
 
 .sobreNosotros {
-    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(/img/nosotros.jpg);
+    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(img/nosotros.jpg);
     background-position: left center;
     padding: .5rem 0;
     background-repeat: no-repeat;
